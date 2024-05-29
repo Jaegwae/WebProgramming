@@ -88,7 +88,7 @@ body {
     color: #F28157;
     overflow: hidden;
     border-right: .1875rem solid #BF665E;
-    animation: typing 5s steps(31) infinite;
+    animation: typing 7s steps(31) infinite;
   }
   
   @keyframes typing{

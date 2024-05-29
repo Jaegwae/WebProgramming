@@ -1,4 +1,4 @@
-/*한 페이지씩 이동*/
+                                                   /*한 페이지씩 이동*/
 const wrap = document.getElementsByClassName('wrap')[0]; // 보일 영역
 const container = document.getElementsByClassName('container');
 let page = 0; // 영역 포지션 초기값
