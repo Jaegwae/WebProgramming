@@ -210,13 +210,12 @@ transition: 0.5s;
 
 .realbox {
   position: absolute;
-  margin: 50px;
   width:600px;
   height:500px;
   background:#005C53;
   border-radius: 10px;
-  top: 45%;
-  left: 66%;
+  top: 48%;
+  left: 68%;
   transform: translate(-50%, -50%);
   font-size: 1.25rem;
   font-family: "Noto Sans KR", sans-serif;
@@ -236,4 +235,23 @@ transition: 0.5s;
   top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
+}
+
+.realbox2 {
+  position: absolute;
+  width:1800px;
+  height:800px;
+  background:#D6D58E;
+  border-radius: 10px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25rem;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #F28157;
+  padding: .9375rem;
 }
