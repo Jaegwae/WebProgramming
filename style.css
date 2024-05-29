@@ -255,3 +255,31 @@ transition: 0.5s;
   color: #F28157;
   padding: .9375rem;
 }
+
+.fiveimg{
+  width: 28.125rem;
+  height: 20rem; 
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.siximg{
+  width: 28.125rem;
+  height: 20rem; 
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.sevenimg{
+  width: 28.125rem;
+  height: 20rem; 
+  overflow: hidden;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
