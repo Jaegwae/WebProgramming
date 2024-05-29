@@ -35,7 +35,7 @@ transition: 0.5s;
 }
 /*이미지 둥글게 끝*/
 
-/*메인 텍스트 (기획자를 꿈꾸고 있는 김재관입니다)*/
+/*메인 텍스트 (안녕하세요)*/
 .main_text {
   font-size: 2.5rem;
   min-width: .6875rem;
@@ -50,7 +50,7 @@ transition: 0.5s;
   left:50%;
   transform: translate(-50%, -50%);
 }
-
+/*메인 텍스트 (기획자를 꿈꾸고 있는 김재관입니다)*/
 .main_text2 {
   font-size: 1.875rem;
   min-width: .6875rem;
@@ -92,6 +92,7 @@ transition: 0.5s;
     width: 0%;
   }
 }
+/*애니메이션 끝*/
 
 /*다음페이지 이어주는 삼각형*/
 .triangle {
@@ -105,6 +106,7 @@ transition: 0.5s;
   border-left: 15.625rem solid transparent;
   border-right: 15.625rem solid transparent;
 }
+/*삼각형 끝*/
 /*메인 텍스트 끝*/
 
 /*서브 텍스트1*/
@@ -119,8 +121,77 @@ transition: 0.5s;
   color: #F28157;
   margin: 0;
   position: absolute;
-  top:13%;
+  top:10%;
   left:50%;
   transform: translate(-50%, -50%);
 }
 /*서브 텍스트1 끝*/
+
+.secondimg{
+  width: 28.125rem;
+  height: 20rem; 
+  overflow: hidden;
+  position: absolute;
+  top: 39%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.thirdimg{
+  width: 28.125rem;
+  height: 20rem; 
+  overflow: hidden;
+  position: absolute;
+  top: 78%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+/*말풍선*/
+.balloon1 {
+  position: absolute;
+  margin: 50px;
+  width:600px;
+  height:500px;
+  background:#042940;
+  border-radius: 10px;
+  top: 45%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+}
+.balloon1:after {
+  content:"";
+  border-top: 16px solid #042940;
+  border-left: 25px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  position: absolute;
+  top: 0px;
+  left: -18px;
+}
+.sub_text2 {
+  font-size: 1.25rem;
+  min-width: .6875rem;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #F28157;
+  position: absolute;
+  margin: 0;
+  top:50%;
+  left:69%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.hyper1{
+  font-size: 1.25rem;
+  min-width: .6875rem;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #F28157;
+}
