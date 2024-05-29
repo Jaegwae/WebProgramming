@@ -169,6 +169,7 @@ transition: 0.5s;
   top: 0px;
   left: -18px;
 }
+/*서브 텍스트2*/
 .sub_text2 {
   font-size: 1.25rem;
   min-width: .6875rem;
@@ -194,4 +195,14 @@ transition: 0.5s;
   font-weight: bold;
   text-align: left;
   color: #F28157;
+}
+/*서브 텍스트2 끝*/
+
+.v-line {
+  border-left : .5rem solid #9FC131;
+  height : 6.25rem;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
