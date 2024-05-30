@@ -100,13 +100,15 @@ function MouseWheelHandler(e) {
 /*한 페이지씩 이동 끝*/
 
 /*상단 로고 canvas그리기*/
-const logo = document.getElementById('logo');
-
 var canvas = document.getElementById("canvas");
 if(canvas.getContext){
     var ctx = canvas.getContext("2d");
 
-    ctx.drawImage(logo, 10, 10);
+    var img = new Image();
+    img.onload = function(){
+        ctx.drawImage(img, 10, 10);
+    }
+    img.src = 'logo.png';
     
     ctx.font = "italic bold 15px Arial, sans-serif";
     ctx.fillStyle = "rgb(255,255,255)";
