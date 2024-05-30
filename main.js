@@ -23,13 +23,13 @@ function MouseWheelHandler(e) {
     e.preventDefault();
     // 휠값처리
     var delta = 0;
-    if (!event) {event = window.event;}
-    if (event.wheelDelta) {
-        delta = event.wheelDelta / 120;
+    if (!e) {e = window.e;}
+    if (e.wheelDelta) {
+        delta = e.wheelDelta / 120;
         if (window.opera) {delta = -delta;}
     }
-    else if (event.detail){
-        delta = -event.detail / 3;
+    else if (e.detail){
+        delta = -e.detail / 3;
     }
 
     // 여러개일경우 다른 selector 을 확인하기위한 상위 dom 으로 이동
