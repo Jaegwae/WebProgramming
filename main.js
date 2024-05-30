@@ -106,9 +106,9 @@ var canvas = document.getElementById("canvas");
 if(canvas.getContext){
     var ctx = canvas.getContext("2d");
 
-    ctx.drawImage(logo, 0, 0);
+    ctx.drawImage(logo, 10, 10);
     
     ctx.font = "italic bold 15px Arial, sans-serif";
     ctx.fillStyle = "rgb(255,255,255)";
-    ctx.fillText("KimJaegwan",5,115);
+    ctx.fillText("KimJaegwan",15,125);
 }
