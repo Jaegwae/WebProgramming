@@ -98,3 +98,17 @@ function MouseWheelHandler(e) {
     }
 }
 /*한 페이지씩 이동 끝*/
+
+/*상단 로고*/
+const logo = document.getElementById('logo');
+
+var canvas = document.getElementById("canvas");
+if(canvas.getContext){
+    var ctx = canvas.getContext("2d");
+
+    ctx.drawImage(logo, 0, 0);
+    
+    ctx.font = "italic bold 15px Arial, sans-serif";
+    ctx.fillStyle = "rgb(255,255,255)";
+    ctx.fillText("KimJaegwan",5,115);
+}
