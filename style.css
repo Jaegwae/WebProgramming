@@ -7,6 +7,9 @@ body {
   border:0;
   padding:0;
   overflow: hidden;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .box {
@@ -39,9 +42,6 @@ transition: 0.5s;
 .main_text {
   font-size: 2.5rem;
   min-width: .6875rem;
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   font-weight: bold;
   color: #F28157;
   margin: 0;
@@ -54,9 +54,6 @@ transition: 0.5s;
 .main_text2 {
   font-size: 1.875rem;
   min-width: .6875rem;
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   font-weight: bold;
   white-space: nowrap;
   margin: 0;
@@ -113,9 +110,6 @@ transition: 0.5s;
 .sub_text {
   font-size: 2.5rem;
   min-width: .6875rem;
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   font-weight: bold;
   text-align: center;
   color: #F28157;
@@ -142,7 +136,7 @@ transition: 0.5s;
   height: 20rem; 
   overflow: hidden;
   position: absolute;
-  top: 78%;
+  top: 72%;
   left: 30%;
   transform: translate(-50%, -50%);
 }
@@ -150,14 +144,19 @@ transition: 0.5s;
 /*말풍선*/
 .balloon1 {
   position: absolute;
-  margin: 50px;
+  /* margin: 50px; */
   width:600px;
   height:500px;
   background:#042940;
   border-radius: 10px;
-  top: 45%;
+  top: 50%;
   left: 66%;
   transform: translate(-50%, -50%);
+  padding: .9375rem;
+  color: #F28157;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
 }
 .balloon1:after {
   content:"";
@@ -169,34 +168,6 @@ transition: 0.5s;
   top: 0px;
   left: -18px;
 }
-/*서브 텍스트2*/
-.sub_text2 {
-  font-size: 1.25rem;
-  min-width: .6875rem;
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: bold;
-  text-align: left;
-  color: #F28157;
-  position: absolute;
-  margin: 0;
-  top:50%;
-  left:69%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-}
-.hyper1{
-  font-size: 1.25rem;
-  min-width: .6875rem;
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: bold;
-  text-align: left;
-  color: #BF665E;
-}
-/*서브 텍스트2 끝*/
 
 /*다음페이지로 이어주는 줄*/
 .v-line {
@@ -218,9 +189,6 @@ transition: 0.5s;
   left: 68%;
   transform: translate(-50%, -50%);
   font-size: 1.25rem;
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   font-weight: bold;
   text-align: left;
   color: #F28157;
@@ -247,9 +215,6 @@ transition: 0.5s;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.25rem;
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   font-weight: bold;
   text-align: left;
   color: #F28157;
