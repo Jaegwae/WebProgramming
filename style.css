@@ -39,6 +39,18 @@ transition: 0.5s;
 /*이미지 둥글게 끝*/
 
 /*메인 텍스트 (안녕하세요)*/
+#clock {
+  font-size: 1.5rem;
+  min-width: .6875rem;
+  font-weight: bold;
+  color: #FFF5E1;
+  margin: 0;
+  position: absolute;
+  top:10%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
 .main_text {
   font-size: 2.5rem;
   min-width: .6875rem;
