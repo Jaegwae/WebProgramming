@@ -65,7 +65,7 @@ transition: 0.5s;
 }
   
 .main_text2::before {
-  content: "기획자를 꿈꾸고 있는 김재관입니다";
+  content: "일상의 즐거움을 알려주고싶은 김재관입니다";
   position: absolute;
   top: 0;
   left: 0;
