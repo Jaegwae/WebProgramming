@@ -273,3 +273,15 @@ transition: 0.5s;
   position: absolute;
   white-space: nowrap;
 }
+
+#rollUp {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background: url("top.png") no-repeat;
+}

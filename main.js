@@ -150,3 +150,19 @@ setInterval(clock, 1000);
 }
 
 init();
+
+function up(){
+    let rollUpBtn = document.getElementById('rollUp');
+
+    const scroll = () => {
+        if (window.scrollY !== 0) {
+            setTimeout(() => {
+                window.scrollTo(0, window.scrollY - 50);
+                scroll();
+            }, 10);
+        }
+    }
+    
+    rollUpBtn.addEventListener('click', scroll);
+}
+
