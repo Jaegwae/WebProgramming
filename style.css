@@ -106,7 +106,7 @@ transition: 0.5s;
 /*다음페이지 이어주는 삼각형*/
 .triangle {
   position: relative;
-  top: 92%;
+  top: 75%;
   left:50%;
   transform: translate(-50%, -50%);
   width: 0px;
